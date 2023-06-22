@@ -10,7 +10,7 @@ root.render(
     <>
     <head>
         <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'></link>
-        <title>Pranay Website</title>        
+        <title>{"Pranay's Website"}</title>        
     </head>
     <body>
         <div className='text-[10rem] text-[black]'>
