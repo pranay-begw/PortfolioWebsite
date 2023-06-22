@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!-- saved from url=(0655)https://project-5amuqligdhpcrd6lpra2.framercanvas.com/s/app.575ceb654c87f69f63245591d306952cb483c040/preview-next-prod-react.html?target=preview-web&mode=dark#services=%7B%22api%22%3A%22https%3A%2F%2Fapi.framer.com%22%2C%22app%22%3A%22https%3A%2F%2Fframer.com%22%2C%22canvas%22%3A%22https%3A%2F%2Fproject-5amuqligdhpcrd6lpra2.framercanvas.com%22%2C%22events%22%3A%22https%3A%2F%2Fevents.framer.com%22%2C%22login%22%3A%22https%3A%2F%2Flogin.framer.com%22%2C%22userContent%22%3A%22https%3A%2F%2Fframerusercontent.com%22%2C%22modulesCDN%22%3A%22https%3A%2F%2Fframerusercontent.com%2Fmodules%22%2C%22modulesShortLink%22%3A%22https%3A%2F%2Fframer.com%2Fm%22%7D -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="robots" content="noindex">
+        
+            <link rel="preconnect" href="https://app.framerstatic.com/">
+            <link rel="dns-prefetch" href="https://app.framerstatic.com/">
+        
+
+        <script type="importmap-shim">
+{
+    "imports": {
+        "framer": "./scripts/framer.esm.js",
+        "framer-motion": "https://app.framerstatic.com/framer-motion-esm-shim.RPQKKJR6.js",
+        "react": "./scripts/react.esm.js",
+        "react/jsx-runtime": "./scripts/react-jsx-runtime.esm.js",
+        "react-dom": "./scripts/react-dom.esm.js",
+        "react-dom/server": "./scripts/react-dom-server.esm.js"
+    }
+}
+</script>
+
+        
+        
+        
+        
+        
+            
+            <script src="./react.production.min.js(1).download"></script>
+<script src="./react-dom.production.min.js(1).download"></script>
+<script src="./react-dom-server-legacy.browser.production.min.js(1).download"></script>
+        
+        
+        
+
+        
+<script>
+    window.__previousRequire__ = window.require
+    window.__previousExports__ = window.exports
+    window.__previousProcess__ = window.process
+
+    window.require = (moduleSpecifier) => {
+        switch (moduleSpecifier) {
+            case "react":
+                return window.React
+            case "object-assign":
+                return Object.assign
+            default:
+                throw new Error("react-jsx-runtime requires unexpected module:" + moduleSpecifier)
+        }
+    }
+
+    window.__REACT_RUNTIME_JSX__ = { Fragment: undefined, jsx: undefined, jsxs: undefined, }
+    window.exports = {
+        set Fragment(value) { window.__REACT_RUNTIME_JSX__.Fragment = value; },
+        set jsx(value) { window.__REACT_RUNTIME_JSX__.jsx = value; },
+        set jsxs(value) { window.__REACT_RUNTIME_JSX__.jsxs = value; }
+    }
+    window.process = { env: { NODE_ENV: "production" } }
+</script>
+<script src="./react-jsx-runtime.production.min.js.download"></script>
+<script>
+    // Restore the globals to their prev values.
+    window.require = window.__previousRequire__
+    window.exports = window.__previousExports__
+    window.process = window.__previousProcess__
+</script>
+
+        
+        
+        
+            <link href="./preview-next.FOT2ZLYE.css" rel="stylesheet">
+        
+        
+
+        <!-- Workaround for a WebKit bug: loading via URL from the stylesheet is denied if this file is loaded via file:/// -->
+        <style>
+            :root {
+                -webkit-font-smoothing: antialiased;
+            }
+
+            * {
+                -webkit-font-smoothing: inherit;
+            }
+
+            @font-face {
+                font-family: "Input Mono";
+                font-style: normal;
+                font-weight: 400;
+                src: local("Input Mono"), url("fonts/QbHJVUjy6YgY.app.ttf") format("truetype");
+            }
+
+            .framerInternalUI-componentPlaceholder,
+            .framerInternalUI-errorPlaceholder {
+                border: calc(1px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1)) dashed currentColor;
+                border-radius: calc(6px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1));
+                font-size: calc(12px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1));
+            }
+
+            /* Placeholder for loading components. */
+            .framerInternalUI-componentPlaceholder {
+                border-style: solid;
+                border-color: rgba(149, 149, 149, 0.15);
+                background-color: rgba(149, 149, 149, 0.1);
+                color: #a5a5a5;
+            }
+
+            /* Placeholder for components with errors. */
+            .framerInternalUI-errorPlaceholder {
+                border-style: solid;
+                border-color: rgba(149, 149, 149, 0.15);
+                background-color: rgba(149, 149, 149, 0.1);
+                color: #a5a5a5;
+            }
+
+            .framerInternalUI-componentPlaceholder .text,
+            .framerInternalUI-errorPlaceholder .text {
+                transition: opacity 300ms;
+            }
+
+            .framerInternalUI-componentPlaceholder .pending,
+            .framerInternalUI-errorPlaceholder .pending {
+                opacity: 0;
+            }
+        </style>
+
+        
+        
+        
+            <link href="https://app.framerstatic.com/chunk-FVBCXSUW.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-GSHWBSOS.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-FIYP577F.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-M45VXM4I.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-CKP2GXTU.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-ZAVCCCEM.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-M5JBPS3M.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-ED23XP4C.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-H4IIIHXS.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-G6RVR2BI.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-UXB4YBAD.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-NEN2GU72.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-7GSQJDMV.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-IEH5QJIZ.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-7DPOW67T.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-3MSLF32W.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-MFLONCUE.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-BU6JUTXA.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-XBQHBV7C.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-CJ5LZKVI.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-A2XM7CWL.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-U6LCHLUH.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-RNBWH3U2.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-Q6LLKHPR.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-BH63GPCX.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-NBEFPMVE.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-VGYC2ZXH.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-2S35SSJW.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-NLCKVBR5.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-KQURWOV5.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-LFL4HJM5.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-LRFMZAIA.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-DSERDOJV.js" rel="modulepreload">
+<link href="https://app.framerstatic.com/chunk-BILZATDT.js" rel="modulepreload">
+        
+        
+    <style type="text/css" data-framer-css="true"></style><title>Quant Finance Portfolio</title></head>
+
+    <body class="">
+        <main></main>
+        <script>
+    // Init options for es-module-shims: https://github.com/guybedford/es-module-shims#init-options
+    window.esmsInitOptions = {
+        shimMode: true,
+        mapOverrides: true,
+        revokeBlobURLs: true,
+        resolve: function (id, parentUrl, defaultResolve) {
+            // Can be set via installShimResolveHook() in importShim.ts.
+            const resolve = window["esmsResolveHook"]
+            if (resolve) return resolve(id, parentUrl, defaultResolve)
+            return defaultResolve(id, parentUrl)
+        },
+    }
+
+    // A lot of libraries assume `process.env.NODE_ENV` is present in runtime/buildtime, so we are polyfilling it
+    window.process = {
+        ...window.process,
+        env: {
+            ...window.process?.env,
+            NODE_ENV: "production",
+        },
+    }
+</script>
+
+        
+        
+        
+        
+            <script src="./preview-next.BX3THTVH.js.download" type="module"></script>
+        
+        
+        
+    
+
+<div id="drag-overlay" style="position: absolute; z-index: 1000000; inset: 0px; display: none;"></div><script type="importmap-shim" id="framer-user-importmap">{
+    "imports": {
+        "valtio": "https://ga.jspm.io/npm:valtio@1.2.9/esm/index.js",
+        "@react-three/drei": "https://ga.jspm.io/npm:@react-three/drei@8.3.1/index.js",
+        "@react-three/fiber": "https://ga.jspm.io/npm:@react-three/fiber@7.0.24/dist/react-three-fiber.esm.js",
+        "airtable": "https://ga.jspm.io/npm:airtable@0.11.1/lib/airtable.js",
+        "framer-motion-3d": "https://ga.jspm.io/npm:framer-motion-3d@6.0.0-beta.8/dist/es/index.mjs",
+        "react-confetti": "https://ga.jspm.io/npm:react-confetti@6.0.1/dist/react-confetti.min.js",
+        "style-value-types": "https://ga.jspm.io/npm:style-value-types@5.1.0/dist/es/index.mjs",
+        "three": "https://ga.jspm.io/npm:three@0.136.0/build/three.module.js",
+        "shopify-buy": "https://ga.jspm.io/npm:shopify-buy@2.14.0/index.js",
+        "canvas-confetti": "https://ga.jspm.io/npm:canvas-confetti@1.4.0/src/confetti.js",
+        "zustand": "https://ga.jspm.io/npm:zustand@3.7.1/esm/index.js",
+        "zustand/middleware": "https://ga.jspm.io/npm:zustand@3.7.1/esm/middleware.js",
+        "color-diff": "https://ga.jspm.io/npm:color-diff@1.2.0/lib/index.js",
+        "color-hash": "https://ga.jspm.io/npm:color-hash@2.0.1/dist/color-hash.js",
+        "tinycolor2": "https://ga.jspm.io/npm:tinycolor2@1.4.2/tinycolor.js",
+        "@emotion/hash": "https://ga.jspm.io/npm:@emotion/hash@0.8.0/dist/hash.browser.esm.js",
+        "@motionone/dom": "https://ga.jspm.io/npm:@motionone/dom@10.15.5/dist/index.es.js",
+        "@motionone/easing": "https://ga.jspm.io/npm:@motionone/easing@10.15.1/dist/index.es.js",
+        "@motionone/utils": "https://ga.jspm.io/npm:@motionone/utils@10.15.1/dist/index.es.js",
+        "framesync": "https://ga.jspm.io/npm:framesync@6.1.2/dist/es/index.mjs",
+        "motion": "https://ga.jspm.io/npm:motion@10.15.5/dist/main.es.js",
+        "popmotion": "https://ga.jspm.io/npm:popmotion@11.0.5/dist/es/index.mjs",
+        "@vimeo/player": "https://ga.jspm.io/npm:@vimeo/player@2.16.4/dist/player.es.js",
+        "react-tsparticles": "https://ga.jspm.io/npm:react-tsparticles@2.9.3/esm/index.js",
+        "tsparticles": "https://ga.jspm.io/npm:tsparticles@2.9.3/esm/index.js",
+        "react-svg": "https://ga.jspm.io/npm:react-svg@15.1.9/dist/react-svg.esm.js",
+        "easing-coordinates": "https://ga.jspm.io/npm:easing-coordinates@2.0.2/dist/cjs/index.js",
+        "hsluv": "https://ga.jspm.io/npm:hsluv@1.0.0/dist/esm/hsluv.js",
+        "cobe": "https://ga.jspm.io/npm:cobe@0.6.3/dist/index.esm.js"
+    },
+    "scopes": {
+        "https://ga.jspm.io/": {
+            "proxy-compare": "https://ga.jspm.io/npm:proxy-compare@2.0.2/dist/index.modern.js",
+            "valtio/vanilla": "https://ga.jspm.io/npm:valtio@1.2.9/esm/vanilla.js",
+            "@babel/runtime/helpers/esm/defineProperty": "https://ga.jspm.io/npm:@babel/runtime@7.16.7/helpers/esm/defineProperty.js",
+            "@babel/runtime/helpers/esm/extends": "https://ga.jspm.io/npm:@babel/runtime@7.16.7/helpers/esm/extends.js",
+            "@chevrotain/utils": "https://ga.jspm.io/npm:@chevrotain/utils@9.1.0/lib/src/api.js",
+            "@react-spring/animated": "https://ga.jspm.io/npm:@react-spring/animated@9.4.1/dist/react-spring-animated.esm.js",
+            "@react-spring/core": "https://ga.jspm.io/npm:@react-spring/core@9.4.1/dist/react-spring-core.esm.js",
+            "@react-spring/rafz": "https://ga.jspm.io/npm:@react-spring/rafz@9.4.1/dist/react-spring-rafz.esm.js",
+            "@react-spring/shared": "https://ga.jspm.io/npm:@react-spring/shared@9.4.1/dist/react-spring-shared.esm.js",
+            "@react-spring/three": "https://ga.jspm.io/npm:@react-spring/three@9.4.1/dist/react-spring-three.esm.js",
+            "@react-spring/types/animated": "https://ga.jspm.io/npm:@react-spring/types@9.4.1/animated.js",
+            "@react-spring/types/interpolation": "https://ga.jspm.io/npm:@react-spring/types@9.4.1/interpolation.js",
+            "@use-gesture/core": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/dist/use-gesture-core.esm.js",
+            "@use-gesture/core/actions": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/actions/dist/use-gesture-core-actions.esm.js",
+            "@use-gesture/core/types": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/types/dist/use-gesture-core-types.esm.js",
+            "@use-gesture/core/utils": "https://ga.jspm.io/npm:@use-gesture/core@10.2.4/utils/dist/use-gesture-core-utils.esm.js",
+            "@use-gesture/react": "https://ga.jspm.io/npm:@use-gesture/react@10.2.4/dist/use-gesture-react.esm.js",
+            "abort-controller": "https://ga.jspm.io/npm:abort-controller@3.0.0/browser.js",
+            "abortcontroller-polyfill/dist/cjs-ponyfill": "https://ga.jspm.io/npm:abortcontroller-polyfill@1.7.3/dist/cjs-ponyfill.js",
+            "bidi-js": "https://ga.jspm.io/npm:bidi-js@1.0.2/dist/bidi.js",
+            "buffer": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.14/nodelibs/browser/buffer.js",
+            "chevrotain": "https://ga.jspm.io/npm:chevrotain@9.1.0/lib_esm/api_esm.mjs",
+            "debounce": "https://ga.jspm.io/npm:debounce@1.2.1/index.js",
+            "detect-gpu": "https://ga.jspm.io/npm:detect-gpu@3.1.30/dist/detect-gpu.esm.js",
+            "fast-deep-equal": "https://ga.jspm.io/npm:fast-deep-equal@3.1.3/index.js",
+            "fflate": "https://ga.jspm.io/npm:fflate@0.6.10/esm/browser.js",
+            "framesync": "https://ga.jspm.io/npm:framesync@6.1.2/dist/es/index.mjs",
+            "hey-listen": "https://ga.jspm.io/npm:hey-listen@1.0.8/dist/index.js",
+            "ktx-parse": "https://ga.jspm.io/npm:ktx-parse@0.2.2/dist/ktx-parse.modern.js",
+            "lodash.omit": "https://ga.jspm.io/npm:lodash.omit@4.5.0/index.js",
+            "lodash.pick": "https://ga.jspm.io/npm:lodash.pick@4.4.0/index.js",
+            "lodash/get": "https://ga.jspm.io/npm:lodash@4.17.21/get.js",
+            "lodash/isArray": "https://ga.jspm.io/npm:lodash@4.17.21/isArray.js",
+            "lodash/isFunction": "https://ga.jspm.io/npm:lodash@4.17.21/isFunction.js",
+            "lodash/isNil": "https://ga.jspm.io/npm:lodash@4.17.21/isNil.js",
+            "lodash/isNumber": "https://ga.jspm.io/npm:lodash@4.17.21/isNumber.js",
+            "lodash/isPlainObject": "https://ga.jspm.io/npm:lodash@4.17.21/isPlainObject.js",
+            "lodash/isString": "https://ga.jspm.io/npm:lodash@4.17.21/isString.js",
+            "lodash/keys": "https://ga.jspm.io/npm:lodash@4.17.21/keys.js",
+            "mmd-parser": "https://ga.jspm.io/npm:mmd-parser@1.0.4/build/mmdparser.js",
+            "node-fetch": "https://ga.jspm.io/npm:node-fetch@2.6.7/browser.js",
+            "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
+            "opentype.js": "https://ga.jspm.io/npm:opentype.js@1.3.4/dist/opentype.module.js",
+            "popmotion": "https://ga.jspm.io/npm:popmotion@11.0.3/dist/es/index.mjs",
+            "potpack": "https://ga.jspm.io/npm:potpack@1.0.2/index.mjs",
+            "process": "https://ga.jspm.io/npm:@jspm/core@2.0.0-beta.14/nodelibs/browser/process-production.js",
+            "prop-types": "https://ga.jspm.io/npm:prop-types@15.8.0/index.js",
+            "react-composer": "https://ga.jspm.io/npm:react-composer@5.0.2/es/index.js",
+            "react-merge-refs": "https://ga.jspm.io/npm:react-merge-refs@1.1.0/dist/react-merge-refs.esm.js",
+            "react-reconciler": "https://ga.jspm.io/npm:react-reconciler@0.26.2/index.js",
+            "react-use-measure": "https://ga.jspm.io/npm:react-use-measure@2.1.1/dist/web.js",
+            "regexp-to-ast": "https://ga.jspm.io/npm:regexp-to-ast@0.5.0/lib/regexp-to-ast.js",
+            "scheduler": "https://ga.jspm.io/npm:scheduler@0.20.2/index.js",
+            "style-value-types": "https://ga.jspm.io/npm:style-value-types@5.1.2/dist/es/index.mjs",
+            "three-mesh-bvh": "https://ga.jspm.io/npm:three-mesh-bvh@0.5.3/src/index.js",
+            "three-stdlib": "https://ga.jspm.io/npm:three-stdlib@2.6.4/index.js",
+            "three/examples/js/libs/stats.min": "https://ga.jspm.io/npm:three@0.136.0/examples/js/libs/stats.min.js",
+            "troika-three-text": "https://ga.jspm.io/npm:troika-three-text@0.44.0/dist/troika-three-text.esm.js",
+            "troika-three-utils": "https://ga.jspm.io/npm:troika-three-utils@0.44.0/dist/troika-three-utils.esm.js",
+            "troika-worker-utils": "https://ga.jspm.io/npm:troika-worker-utils@0.44.0/dist/troika-worker-utils.esm.js",
+            "tslib": "https://ga.jspm.io/npm:tslib@2.4.0/tslib.es6.js",
+            "use-asset": "https://ga.jspm.io/npm:use-asset@1.0.4/dist/index.cjs.js",
+            "zstddec": "https://ga.jspm.io/npm:zstddec@0.0.2/dist/zstddec.js",
+            "zustand": "https://ga.jspm.io/npm:zustand@3.6.8/esm/index.js",
+            "@motionone/animation": "https://ga.jspm.io/npm:@motionone/animation@10.15.1/dist/index.es.js",
+            "@motionone/easing": "https://ga.jspm.io/npm:@motionone/easing@10.14.0/dist/index.es.js",
+            "@motionone/generators": "https://ga.jspm.io/npm:@motionone/generators@10.15.1/dist/index.es.js",
+            "@motionone/types": "https://ga.jspm.io/npm:@motionone/types@10.15.1/dist/index.es.js",
+            "@motionone/dom": "https://ga.jspm.io/npm:@motionone/dom@10.14.1/dist/index.es.js",
+            "@motionone/utils": "https://ga.jspm.io/npm:@motionone/utils@10.14.0/dist/index.es.js",
+            "fast-deep-equal/react": "https://ga.jspm.io/npm:fast-deep-equal@3.1.3/react.js",
+            "tsparticles-engine": "https://ga.jspm.io/npm:tsparticles-engine@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-attract": "https://ga.jspm.io/npm:tsparticles-interaction-external-attract@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-bounce": "https://ga.jspm.io/npm:tsparticles-interaction-external-bounce@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-bubble": "https://ga.jspm.io/npm:tsparticles-interaction-external-bubble@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-connect": "https://ga.jspm.io/npm:tsparticles-interaction-external-connect@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-grab": "https://ga.jspm.io/npm:tsparticles-interaction-external-grab@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-pause": "https://ga.jspm.io/npm:tsparticles-interaction-external-pause@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-push": "https://ga.jspm.io/npm:tsparticles-interaction-external-push@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-remove": "https://ga.jspm.io/npm:tsparticles-interaction-external-remove@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-repulse": "https://ga.jspm.io/npm:tsparticles-interaction-external-repulse@2.9.3/esm/index.js",
+            "tsparticles-interaction-external-trail": "https://ga.jspm.io/npm:tsparticles-interaction-external-trail@2.9.3/esm/index.js",
+            "tsparticles-interaction-particles-attract": "https://ga.jspm.io/npm:tsparticles-interaction-particles-attract@2.9.3/esm/index.js",
+            "tsparticles-interaction-particles-collisions": "https://ga.jspm.io/npm:tsparticles-interaction-particles-collisions@2.9.3/esm/index.js",
+            "tsparticles-interaction-particles-links": "https://ga.jspm.io/npm:tsparticles-interaction-particles-links@2.9.3/esm/index.js",
+            "tsparticles-move-base": "https://ga.jspm.io/npm:tsparticles-move-base@2.9.3/esm/index.js",
+            "tsparticles-move-parallax": "https://ga.jspm.io/npm:tsparticles-move-parallax@2.9.3/esm/index.js",
+            "tsparticles-particles.js": "https://ga.jspm.io/npm:tsparticles-particles.js@2.9.3/esm/index.js",
+            "tsparticles-plugin-absorbers": "https://ga.jspm.io/npm:tsparticles-plugin-absorbers@2.9.3/esm/index.js",
+            "tsparticles-plugin-emitters": "https://ga.jspm.io/npm:tsparticles-plugin-emitters@2.9.3/esm/index.js",
+            "tsparticles-plugin-polygon-mask": "https://ga.jspm.io/npm:tsparticles-plugin-polygon-mask@2.2.4/esm/index.js",
+            "tsparticles-shape-circle": "https://ga.jspm.io/npm:tsparticles-shape-circle@2.9.3/esm/index.js",
+            "tsparticles-shape-image": "https://ga.jspm.io/npm:tsparticles-shape-image@2.9.3/esm/index.js",
+            "tsparticles-shape-line": "https://ga.jspm.io/npm:tsparticles-shape-line@2.9.3/esm/index.js",
+            "tsparticles-shape-polygon": "https://ga.jspm.io/npm:tsparticles-shape-polygon@2.9.3/esm/index.js",
+            "tsparticles-shape-square": "https://ga.jspm.io/npm:tsparticles-shape-square@2.9.3/esm/index.js",
+            "tsparticles-shape-star": "https://ga.jspm.io/npm:tsparticles-shape-star@2.9.3/esm/index.js",
+            "tsparticles-shape-text": "https://ga.jspm.io/npm:tsparticles-shape-text@2.9.3/esm/index.js",
+            "tsparticles-slim": "https://ga.jspm.io/npm:tsparticles-slim@2.9.3/esm/index.js",
+            "tsparticles-updater-angle": "https://ga.jspm.io/npm:tsparticles-updater-angle@2.9.3/esm/index.js",
+            "tsparticles-updater-color": "https://ga.jspm.io/npm:tsparticles-updater-color@2.9.3/esm/index.js",
+            "tsparticles-updater-life": "https://ga.jspm.io/npm:tsparticles-updater-life@2.9.3/esm/index.js",
+            "tsparticles-updater-opacity": "https://ga.jspm.io/npm:tsparticles-updater-opacity@2.9.3/esm/index.js",
+            "tsparticles-updater-out-modes": "https://ga.jspm.io/npm:tsparticles-updater-out-modes@2.9.3/esm/index.js",
+            "tsparticles-updater-roll": "https://ga.jspm.io/npm:tsparticles-updater-roll@2.9.3/esm/index.js",
+            "tsparticles-updater-size": "https://ga.jspm.io/npm:tsparticles-updater-size@2.9.3/esm/index.js",
+            "tsparticles-updater-stroke-color": "https://ga.jspm.io/npm:tsparticles-updater-stroke-color@2.9.3/esm/index.js",
+            "tsparticles-updater-tilt": "https://ga.jspm.io/npm:tsparticles-updater-tilt@2.9.3/esm/index.js",
+            "tsparticles-updater-twinkle": "https://ga.jspm.io/npm:tsparticles-updater-twinkle@2.9.3/esm/index.js",
+            "tsparticles-updater-wobble": "https://ga.jspm.io/npm:tsparticles-updater-wobble@2.9.3/esm/index.js",
+            "@babel/runtime/helpers/extends": "https://ga.jspm.io/npm:@babel/runtime@7.19.0/helpers/esm/extends.js",
+            "@babel/runtime/helpers/inheritsLoose": "https://ga.jspm.io/npm:@babel/runtime@7.19.0/helpers/esm/inheritsLoose.js",
+            "@babel/runtime/helpers/objectWithoutPropertiesLoose": "https://ga.jspm.io/npm:@babel/runtime@7.19.0/helpers/esm/objectWithoutPropertiesLoose.js",
+            "@tanem/svg-injector": "https://ga.jspm.io/npm:@tanem/svg-injector@10.1.33/dist/svg-injector.esm.js",
+            "content-type": "https://ga.jspm.io/npm:content-type@1.0.4/index.js",
+            "phenomenon": "https://ga.jspm.io/npm:phenomenon@1.6.0/dist/phenomenon.mjs",
+            "tsparticles-interaction-external-slow": "https://ga.jspm.io/npm:tsparticles-interaction-external-slow@2.9.3/esm/index.js",
+            "tsparticles-updater-destroy": "https://ga.jspm.io/npm:tsparticles-updater-destroy@2.9.3/esm/index.js"
+        },
+        "https://ga.jspm.io/npm:@motionone/dom@10.15.5/": {
+            "tslib": "https://ga.jspm.io/npm:tslib@2.5.0/tslib.es6.js"
+        },
+        "https://ga.jspm.io/npm:framer-motion-3d@6.0.0-beta.8/": {
+            "tslib": "https://ga.jspm.io/npm:tslib@2.3.1/tslib.es6.js"
+        }
+    }
+}</script></body></html>
