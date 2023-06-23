@@ -50,17 +50,17 @@ export const TopNavigation = () => {
             </div>
 
             <div className='relative flex flex-col pt-[30vh]'>
-                <div className="mx-auto max-w-[70vw] h-auto rounded-lg shadow-lg">
-                    <div className="px-1 py-1">
-                        <h4 className="text-[3rem] font-limelight text-slate-800">About Me</h4>
-                        <p className="text-[2rem] text-slate-200 font-semibold font-mono"> I am Pranay, a tech-savvy, curious, and versatile individual at the 🐝<span className="text-yellow">Georgia</span> Institute of <span className='text-yellow'>Tech</span>nology🐝. 
+                <div className="z-10 mx-auto max-w-[70vw] h-auto rounded-lg shadow-lg">
+                    <div className="px-1 py-1 z-10">
+                        <h4 className="text-[3rem] z-10 font-limelight font-bold text-slate-800">About Me</h4>
+                        <p className="text-[2rem] text-slate-300 font-semibold font-mono"> I am Pranay, a tech-savvy, curious, and versatile individual at the 🐝<span className="text-yellow">Georgia</span> Institute of <span className='text-yellow'>Tech</span>nology🐝. 
                         I am excited about machine learning 🤖 and quantitative research 🤓. The potential for generating impact and the hunger to learn drive me. In my free time, you can find me 💸analyzing investments📈, and watching ⚽football⚽ or 🏎️Formula 1🏎️</p>
                     </div>
                 </div>
-                <img src={Barca} className='absolute w-[13vh] -rotate-12 '/>
-                <img src={Gt} className=' absolute w-[13vh] rotate-12 bottom-0 '/>
-                <img src={messi} className='absolute w-[25vh] -rotate-12 bottom-0 -right-10'/>
-                <img src={dsgtorig} className='absolute w-[20vh] -rotate-12 -right-10'/>
+                <img src={Barca} className='absolute w-[13vh] -rotate-12 z-0'/>
+                <img src={Gt} className=' absolute w-[13vh] rotate-12 bottom-0 z-0'/>
+                <img src={messi} className='absolute w-[25vh] -rotate-12 bottom-0 -right-10 z-0'/>
+                <img src={dsgtorig} className='absolute w-[20vh] -rotate-12 -right-10 z-0'/>
             </div>
 
             {/* <div id='midPart-1' className='flex pt-[20vh]'>

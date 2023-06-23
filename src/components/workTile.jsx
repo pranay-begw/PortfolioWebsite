@@ -8,12 +8,12 @@ export const WorkTile = (props) => {
 
     return (
         <>
-        <div className="flex mx-auto justify-items-center my-auto rounded-full bg-[#ffe4e6] w-[50vw] h-[5rem] transition duration-500 hover:scale-110" onClick={() => {
+        <div className="flex mx-auto my-auto rounded-full bg-[#ffe4e6] w-[70vw] transition duration-500 hover:scale-110 items-center" onClick={() => {
             setIsOpen(true);
         }}>
-            <div className="flex flex-grow items-stretch">
-                <img src={props.img} alt="bruh" className="w-[7vh] mx-[0.8rem] my-auto"/>
-                <p className=" flex-grow text-black font-semibold font-mono text-[1rem] mx-[1.25rem] my-auto w-1/2">{props.content}</p>
+            <div className="flex items-stretch h-[100px]">
+                <img src={props.img} alt="bruh" className="w-[7.5vh] mx-[0.5rem] my-auto"/>
+                <p className="text-slate-700 font-semibold font-mono text-[1rem] mx-[1.25rem] my-auto w-fit ">{props.content}</p>
             </div>
         </div>
 
