@@ -34,9 +34,9 @@ export const TopNavigation = () => {
                     <a href='/home'><h1>PRANAY BEGWANI</h1></a>
                 </div>
                 <div className='flex flex-auto justify-center'>
-                    <a href='https://www.linkedin.com/in/pranay-begwani/'><img src={linkedInLogo} className='w-[4vh] m-3'/></a>
-                    <a href='https://medium.com/@pranaybeg'><img src={mediumLogo} className='w-[4vh] m-3' /></a>
-                    <a href='mailto:pbegwani3@gatech.edu'><img src={email} className='w-[4vh] m-3'/></a>
+                    <a href='https://www.linkedin.com/in/pranay-begwani/'><img src={linkedInLogo} alt='' className='w-[4vh] m-3'/></a>
+                    <a href='https://medium.com/@pranaybeg'><img src={mediumLogo} alt='' className='w-[4vh] m-3' /></a>
+                    <a href='mailto:pbegwani3@gatech.edu'><img src={email} alt='' className='w-[4vh] m-3'/></a>
                 </div>
                 <div className='flex flex-auto justify-center'>
                 <a href= {PranayBegwaniResume} class="inline-block text-lg group">
