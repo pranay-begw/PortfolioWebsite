@@ -57,10 +57,10 @@ export const TopNavigation = () => {
                         I am excited about machine learning 🤖 and quantitative research 🤓. The potential for generating impact and the hunger to learn drive me. In my free time, you can find me 💸analyzing investments📈, and watching ⚽football⚽ or 🏎️Formula 1🏎️</p>
                     </div>
                 </div>
-                <img src={Barca} className='absolute w-[13vh] -rotate-12 z-0'/>
-                <img src={Gt} className=' absolute w-[13vh] rotate-12 bottom-0 z-0'/>
-                <img src={messi} className='absolute w-[25vh] -rotate-12 bottom-0 -right-10 z-0'/>
-                <img src={dsgtorig} className='absolute w-[20vh] -rotate-12 -right-10 z-0'/>
+                <img src={Barca} alt="" className='absolute w-[13vh] -rotate-12 z-0'/>
+                <img src={Gt} alt="" className=' absolute w-[13vh] rotate-12 bottom-0 z-0'/>
+                <img src={messi} alt="" className='absolute w-[25vh] -rotate-12 bottom-0 -right-10 z-0'/>
+                <img src={dsgtorig} alt="" className='absolute w-[20vh] -rotate-12 -right-10 z-0'/>
             </div>
 
             {/* <div id='midPart-1' className='flex pt-[20vh]'>
