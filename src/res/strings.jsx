@@ -17,8 +17,7 @@ const strings = {
         role: 'Undergrad Research Assistant',
         company: "Technologies and International Development Lab",
         location: 'Atlanta, GA',
-        work: ` • Developed and implemented a script to effectively store and retrieve large volumes of tweets using the Twitter API, achieving rapid access to 1,400,000+ tweets for data analysis and representation \
-        \n • Conducted topic modelling and sentiment analysis using Azure to help cluster sentiments based on topics and regions `
+        work: `• Developed and implemented a script to effectively store and retrieve large volumes of tweets using the Twitter API, achieving rapid access to 1,400,000+ tweets for data analysis and representation\n• Conducted topic modelling and sentiment analysis using Azure to help cluster sentiments based on topics and regions`
     },
     schoolkart: {
         role: 'Business Development Intern',

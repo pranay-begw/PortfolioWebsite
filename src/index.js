@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes } from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import { TopNavigation } from './components/topnav';
-// import { HomePage } from './components/HomePage/homepage';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
