@@ -1,14 +1,15 @@
 .custom-dot {
-    width: 120px; /* Adjust the width as needed */
-    height: 120px; /* Adjust the height as needed */
-    border-radius: 10%;
+    width: 8vw; /* Adjust the width as needed */
+    height: 8vw; /* Adjust the height as needed */
+    border-radius: 100%;
     overflow: hidden;
+    margin: 1vw 3vw;
     background-color: #ffe4e6 !important;
 }
 
 .custom-dot img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     align-self: center;
     margin: auto;

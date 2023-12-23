@@ -37,6 +37,36 @@ const strings = {
         company: "Georgia Tech Student Foundation Investments Committee",
         location: 'Atlanta, GA',
         work: '• Oversaw analyst research for Consumer Discretionary stocks, macro & industry trends, and ensured accurate valuation models such as DCF and SOTP, leading to 4 successful pitches in a 200+ member committee, returning 51+% to date'
+    },
+    project_aiatl: {
+        heading: 'Styles.Compare',
+        tech: 'OpenAI API, Pinecone, MongoDB, Firebase, React, Web-Scraping',
+        overview: 'Website to find clothing which matches existing clothing styles using similarities in vector embeddings of style descriptions.',
+    },
+    project_thisWebsite: {
+        heading: 'pranaybegwani.com',
+        tech: 'HTML, CSS, React TailwindCSS, Vercel',
+        overview: 'This website aims to showcase my work and profile.',
+    },
+    project_frogger: {
+        heading: 'Frogger',
+        tech: 'Java, XML, Android, OOP, Agile',
+        overview: 'A group project to develop the game Frogger in an Android app.',
+    },
+    project_labMgmtSys: {
+        heading: 'School Lab Manager',
+        tech: 'Python, SQLite3, Django, HTML, CSS',
+        overview: 'Web app to book equipment based on lab experiments and have the option to book labs. The goal is minimize lost equipment and double booking of rooms.',
+    },
+    project_docushare: {
+        heading: 'docushare',
+        tech: 'Java, Android, Google Auth, Firebase',
+        overview: 'Android application to enable fast and cross OS sharing of images through QR Codes.',
+    },
+    project_moviePred: {
+        heading: 'Movie Success Predictor',
+        tech: 'Python, Pandas, Numpy, Scikit-Learn, Matplotlib, Keras, Tensorflow, BeautifulSoup, NLTK',
+        overview: 'ML model to predict success of a movie based on factors like its script, budget, star cast, and production team.',
     }
   }
   
