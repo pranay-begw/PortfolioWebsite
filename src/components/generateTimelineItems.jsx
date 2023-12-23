@@ -45,18 +45,15 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import './dot.css';
 
 const TimelineItemComponent = ({ item }) => {
-    const isMobile = useMediaQuery('(max-width:600px)'); // Adjust the breakpoint as needed
 
     return (
         <TimelineItem>
-            {isMobile && (
-                <TimelineOppositeContent
-                    sx={{ m: 'auto', fontWeight: 'bold', fontFamily: 'monospace', fontSize: '1rem' }}
-                    variant="body2"
-                >
-                    {item.date}
-                </TimelineOppositeContent>
-            )}
+            <TimelineOppositeContent
+                sx={{ m: 'auto', fontWeight: 'bold', fontFamily: 'monospace', fontSize: '1rem' }}
+                variant="body2"
+            >
+                {item.date}
+            </TimelineOppositeContent>
             <TimelineSeparator>
                 <TimelineConnector />
                 <TimelineDot className='custom-dot'>{item.icon}</TimelineDot>
