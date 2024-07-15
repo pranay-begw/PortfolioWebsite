@@ -1,9 +1,20 @@
 const strings = {
+    amazon: {
+        role: 'Software Engineering Intern',
+        company: "Amazon",
+        location: 'Bellevue, WA',
+        work: `• Working in Responsible AI to develop a REST API leveraging AWS services to reduce manual resource screening
+        \n • Supporting Alexa's Voice Deletion Promise, saving 200+ business hours per year on ticketing and triaging
+        \n • Designed, implemented, tested, and deployed a compliance list scan for efficient policy evaluation of critical findings`
+    },
     messagegears: {
         role: 'Software Engineering Intern',
         company: "MessageGears LLC",
         location: 'Atlanta, GA',
-        work: '• Working with the agile methodology to seamlessly migrate product from Angular to React, with TailwindCSS for designing, to achieve better compatibility with a newly acquired product'
+        work: `• Migrated the core product to a React and TailwindCSS stack from Angular JS using the agile methodology
+• Implemented 10+ components, including a new navbar, a modal, and a wrapper to process API responses
+• Created 50+ automated tests using React Testing Library and Cypress to ensure robustness of the new navbar
+• Identified and resolved 20+ bugs in JSP and Angular resulting in fulfilled client requests and better user experience`
     },
     gtf: {
         role: 'Quantitative Investments Analyst Intern',

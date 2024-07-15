@@ -34,11 +34,17 @@ import sql from '../res/sql.png';
 import scikit from '../res/scikit.png'; 
 import tailwind from '../res/tailwind.png';
 import ts from '../res/ts.png';
+import amazonlogo from '../static/amazonlogo.webp';
 
 
 export const TopNavigation = () => {
 
     const timelineData = [
+        {
+            date: 'May 2024 - July 2024',
+            icon: <img src={amazonlogo} alt=''/>,
+            content: <WorkTile img={amazonlogo} org={strings.amazon.company} role={strings.amazon.role} experience={strings.amazon.work} />,            
+        },
         {
           date: 'May 2023 - Aug 2023',
           icon: <img src={messagegearslogo} alt=''/>,
