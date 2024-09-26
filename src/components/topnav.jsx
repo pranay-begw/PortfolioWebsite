@@ -141,15 +141,17 @@ export const TopNavigation = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 place-items-stretch my-auto space-y-6 pt-[20vh] mx-auto'>
-                <ProjectBlock heading = {strings.project_aiatl.heading} tech = {strings.project_aiatl.tech} experience = {strings.project_aiatl.overview}/>
-                <ProjectBlock heading = {strings.project_docushare.heading} tech = {strings.project_docushare.tech} experience = {strings.project_docushare.overview}/>
-                <ProjectBlock heading = {strings.project_frogger.heading} tech = {strings.project_frogger.tech} experience = {strings.project_frogger.overview}/>
-                <ProjectBlock heading = {strings.project_labMgmtSys.heading} tech = {strings.project_labMgmtSys.tech} experience = {strings.project_labMgmtSys.overview}/>
-                <ProjectBlock heading = {strings.project_moviePred.heading} tech = {strings.project_moviePred.tech} experience = {strings.project_moviePred.overview}/>
-                <ProjectBlock heading = {strings.project_thisWebsite.heading} tech = {strings.project_thisWebsite.tech} experience = {strings.project_thisWebsite.overview}/>
-
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 pt-[5vh] mx-auto md:max-w-[90vw]'>
+                <ProjectBlock heading={strings.project_aiatl.heading} tech={strings.project_aiatl.tech} experience={strings.project_aiatl.overview} />
+                <ProjectBlock heading={strings.project_docushare.heading} tech={strings.project_docushare.tech} experience={strings.project_docushare.overview} />
+                <ProjectBlock heading={strings.project_frogger.heading} tech={strings.project_frogger.tech} experience={strings.project_frogger.overview} />
+                <ProjectBlock heading={strings.project_labMgmtSys.heading} tech={strings.project_labMgmtSys.tech} experience={strings.project_labMgmtSys.overview} />
+                <ProjectBlock heading={strings.project_moviePred.heading} tech={strings.project_moviePred.tech} experience={strings.project_moviePred.overview} />
+                <ProjectBlock heading={strings.project_thisWebsite.heading} tech={strings.project_thisWebsite.tech} experience={strings.project_thisWebsite.overview} />
             </div>
+
+
+
             
             <div className='font-limelight text-slate-800 pt-[10vh] py-auto flex-col flex text-center'>
                 <h3 className='text-[2.6rem]'>Contact</h3>
